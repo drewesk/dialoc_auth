@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('users-stickers-crud:server');
+var debug = require('debug')('Dialoc:server');
 var http = require('http');
 
 /**

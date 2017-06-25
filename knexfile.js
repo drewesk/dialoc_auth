@@ -6,7 +6,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/sticker-mania'
+    connection: 'postgres://localhost/dialoc'
   },
   production: {
     client: 'pg',

@@ -4,12 +4,14 @@ exports.seed = (knex, Promise) => {
         const users = [
           {
             id: 1,
+            name: 'Rob',
             email: 'berto.ort@gmail.com',
             password: 'pineapple',
             created_at: new Date()
           },
           {
             id: 2,
+            name: 'CJ',
             email: 'hello@cjr.co.de',
             password: 'keyboard_cat',
             created_at: new Date()

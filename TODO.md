@@ -7,12 +7,12 @@
 
 ## Authentication
 * [x] Add auth router
-* [ ] Create user with POST /auth/signup
+* [x] Create user with POST /auth/signup
 	* [x] validate required fields
 	* [x] Check if email is unique
 	* [x] hash password with bcryptjs
 	* [x] insert into db
-	* [ ] Set a cookie with user_id after creating user
+	* [x] Set a cookie with user_id after creating user
 		* [ ] Best Practices
 		* [ ] Cross origin cookie!
 * [ ] Create sign up form; show errors; redirect;

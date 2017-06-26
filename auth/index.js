@@ -63,7 +63,7 @@ router.post('/login', (req, res, next) => {
 
                 res.json({
                   result,
-                  message: 'Logged in 👍';
+                  message: 'Logged in 👍'
                 });
               } else {
                 next(new Error('Invalid Login'));
